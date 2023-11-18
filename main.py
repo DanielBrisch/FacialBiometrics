@@ -3,12 +3,9 @@ from cv2 import face
 import cv2.data
 import os
 import numpy as np
-import time as delay
 
-# Carregar o detector de rostos
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-# Preparar o treinamento de dados
 def prepare_training_data(data_folder_path):
     faces = []
     labels = []
