@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>Reconhecimento Facial</title>
+</head>
+<body>
+
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Data/Hora</th>
+                    <th>Presente</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for aluno in alunos %}
+                <tr>
+                    <td>{{ aluno }}</td>
+                    <td id="{{ 'date-' + aluno }}">Aguardando...</td>
+                    <td><input type="checkbox" id="{{ 'check-' + aluno }}" disabled></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>        
+    </div>
+    
+    
+    <div class="button-container">
+        <button id="startRecognitionButton" class="btn btn-primary btn-lg mr-2">Iniciar Reconhecimento Facial</button>
+        <!-- <button id="sendDataButton" class="btn btn-success btn-lg">Aplicar Presença</button> -->
+    </div>    
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

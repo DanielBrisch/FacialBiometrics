@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "trabalhoia-405614",
+  "private_key_id": "b860119fddae685ea1d78fd3c2fe012f2fde930d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDLbBXuGIvv0n3r\nwsvaUjW7pz8RxKmHYRgHi0GMUggeaZPDeOrO7uTIL0wr4ELGkbKo/8GBh7CnLu2h\nlJ72RmM1eqyW5dOS/TTxNz/HwI3zgtmz4RGTzceWFUNSSe9+Tz7+9tF30WJwd4gg\n9/DyE1O/Cgh0OJnb3yYd8QEPmPD/efpI5lNOSA0D+geRx5XksWpPSCO/wYt4nwy+\nUeQNejhDGZCWANy1Xcnd/yRo2cukGA8X3D4IQAz0BoGEk82QgSG4ahyuR+TT48X1\nI5N9mnttkA9BonbCDEL+8E7WB4ORGC+lU3VGsxT6G4uBRoXT9zu5y+8drDThJtXn\n+MXbeXTdAgMBAAECggEAS813sJVSFCiehsu8lhr7bfWJQZBE0i9iunDwmJ766oZS\nK020Ri9sbpJ9cn4rs/4YEvTXQXL0Z6BLqeINiF07W/LePI7hFA2p/Fcnu8JrwznX\n8TlmCOtuO+WphBEMH0fdhDoqXVlXsuw//HUYQsTj+LT+6HwtDWtus0qbKBpIeBJs\nep037AUOJ2Y9fCNc56n6Uay2B1I5lCicNye2c1TdqOrhGEf7u3eBxd1v6BGnpphz\nmJPZiSgleb4KyfSyWQAe3tiU94Yw/RFT36C+X8OK8rFk5bt/SGUz87lZBHf78Gta\n83F7j/s5tOuehcSFhrelDzu5hnzTBRfZQWLFFDlj+wKBgQDsv92/5QuWv/e1Lf2w\nCT2uEJaWQ1G77yYjxR2GfaSAeQbtvMNx5Mm+J+/g7qtMjP/z/TEOQIE03wEzOmHr\nhdjvOpKqW0fLBydd1IeBrROlopG4Mjy6lOQ2WHxVgTr65yF7skHF8hcG9HzbxSEe\nSWim6MrOODu7c7vVd7WJViA9pwKBgQDb9nwyulW1GUB1XbyQSFNECNLGaUxVX9gT\nzWzEDKhtlzy33/wQRFGtmEQWbwGuYTMYsrgJfhvZaMlnIi7cXlWd7tgajB5E/Daj\nqzgqXAIzxZzEdHNQqGfGSBCaGAQKPWyR/PMYwQnKH/WKVZbmv/rE2/te8Lm0mN1G\nFQ22eaJx2wKBgQCaL9MBuPA1O8zdqJhB36LWDGOmdS10EipqvWOfRZCvQyMqDffT\n40comuX1Pjs93c6MXudl+sirYFltvaYsN72zABio7k3xgjU3PMULxWa4RwpURhOb\nCIEgi7xeC44X/hOmdc+0VRh+JRh0IQySpwiLO61pZOIyEQvR2ObYDMlunQKBgQDH\nFihBbb+nQyzBTc8etCeRG39Sj/nECBS1j6fTJjXHwyv0rSkivANFYNy3hU97OoSZ\n5SCHjvm75Ijt7NWHJWbOpGA6XvoCrFjz+EPEqzRfEYwbj97TcSlEIPPN1NDLR98d\nn1mT3Rx0Mkr2IxOK1NYvGYBB5RXgLL+R7/pSX3M1IwKBgQCf3nypRgrZa49K2DzB\nrmxyK7NXjiU2qsD45XjJnExRmlI4t8mlre7McoYMOhwWE7DHbIimmeX/T3PAODtP\nXaws4vCpFX3uYM6jXIqQPIh34Z2tf8+42iXjZ7BXU0kYulCk9WKNOd2LfumLEdbb\nhkwDLRy4xR/clS9NUmaK/plh0A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dadosreconhecimentofacial@trabalhoia-405614.iam.gserviceaccount.com",
+  "client_id": "117977913071450073741",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dadosreconhecimentofacial%40trabalhoia-405614.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
