@@ -59,7 +59,7 @@ function updateTable() {
 
 document.addEventListener('DOMContentLoaded', updateTable);
 
-setInterval(updateTable, 100);
+setInterval(updateTable, 30000);
 
 
 

@@ -85,7 +85,7 @@ def predict(test_img):
         label, confidence = face_recognizer.predict(roi_gray)
 
         if confidence < 50:
-            cv2.putText(img, label_names[label], (x, y-5), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+            cv2.putText(img, label_names[label], (x, y-20), cv2.FONT_HERSHEY_DUPLEX, 2, (0, 0, 255), 2)
             return img, True, label_names[label]
 
     return img, False, None
@@ -95,7 +95,7 @@ validated_directories = set()
 
 def run_face_recognition():
     global camera_active, validated_directories
-    webcam = cv2.VideoCapture(0)
+    webcam = cv2.VideoCapture(2)
 
     while camera_active:
         ret, frame = webcam.read()
@@ -175,4 +175,5 @@ def stop_camera():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #port = int(os.getenv('PORT'), 5000)
+    app.run(host='0.0.0.0', debug=True) #port=port,
